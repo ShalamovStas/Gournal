@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#82ce87</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#006fff</color>
+    <color name="colorBar">#63b768</color>
+    <color name="colorText">#000000</color>
+    <color name="colorTextColumn1">#c7c7c7</color>
+    <color name="colorTextColumn2">#ffffff</color>
+    <color name="colorTextColumn3">#ffb5ce</color>
+    <color name="colorBackgroundStreet">#dceeff</color>
+    <color name="colorBackgroundBuild">#76bc7c</color>
+    <color name="colorTextBtn">#ffffff</color>
+    <color name="colorTextBtnFlag">#ff7905</color>
+    <color name="colorSpinner">#f4f7fa</color>
+    <color name="colorActionButton">#ff7905</color>
+    <color name="colorImportColumn1">#c4c4c4</color>
+    <color name="colorImportColumn11">#dcdcdc</color>
+    <color name="colorImportTextWhereSave">#393939</color>
+    <color name="colorTextDBIsNotImport">#ff2f2f</color>
+
+
+
+
+
+</resources>

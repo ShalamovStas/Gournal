@@ -1,0 +1,3979 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ru.standartandroid.myapplication3.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <GridLayout
+                android:id="@+id/gridLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:columnCount="5"
+
+                android:columnOrderPreserved="false"
+                android:rowCount="250"
+                android:useDefaultMargins="false">
+
+
+                <TextView
+                    android:layout_column="0"
+                    android:layout_row="0"
+
+                    android:text="@string/btn_1"
+                    android:id="@+id/text_View1"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_row="0"
+
+                    android:text="@string/btn_2"
+                    android:id="@+id/text_View2"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="2"
+                    android:layout_row="0"
+
+                    android:text="@string/btn_3"
+                    android:id="@+id/text_View3"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="3"
+                    android:layout_row="0"
+
+                    android:text="@string/btn_4"
+                    android:id="@+id/text_View4"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="4"
+                    android:layout_row="0"
+
+                    android:text="@string/btn_5"
+                    android:id="@+id/text_View5"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_column="0"
+                    android:layout_row="1"
+
+                    android:text="@string/btn_6"
+                    android:id="@+id/text_View6"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_row="1"
+
+                    android:text="@string/btn_7"
+                    android:id="@+id/text_View7"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="2"
+                    android:layout_row="1"
+
+                    android:text="@string/btn_8"
+                    android:id="@+id/text_View8"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="3"
+                    android:layout_row="1"
+
+                    android:text="@string/btn_9"
+                    android:id="@+id/text_View9"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="4"
+                    android:layout_row="1"
+
+                    android:text="@string/btn_10"
+                    android:id="@+id/text_View10"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_column="0"
+                    android:layout_row="2"
+
+                    android:text="@string/btn_11"
+                    android:id="@+id/text_View11"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_row="2"
+
+                    android:text="@string/btn_12"
+                    android:id="@+id/text_View12"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="2"
+                    android:layout_row="2"
+
+                    android:text="@string/btn_13"
+                    android:id="@+id/text_View13"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="3"
+                    android:layout_row="2"
+
+                    android:text="@string/btn_14"
+                    android:id="@+id/text_View14"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="4"
+                    android:layout_row="2"
+
+                    android:text="@string/btn_15"
+                    android:id="@+id/text_View15"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="3"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_16"
+                    android:id="@+id/text_View16"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="3"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_17"
+                    android:id="@+id/text_View17"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="3"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_18"
+                    android:id="@+id/text_View18"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="3"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_19"
+                    android:id="@+id/text_View19"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="3"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_20"
+                    android:id="@+id/text_View20"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+
+                <TextView
+                    android:layout_row="4"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_21"
+                    android:id="@+id/text_View21"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="4"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_22"
+                    android:id="@+id/text_View22"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="4"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_23"
+                    android:id="@+id/text_View23"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="4"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_24"
+                    android:id="@+id/text_View24"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="4"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_25"
+                    android:id="@+id/text_View25"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="5"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_26"
+                    android:id="@+id/text_View26"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="5"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_27"
+                    android:id="@+id/text_View27"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="5"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_28"
+                    android:id="@+id/text_View28"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="5"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_29"
+                    android:id="@+id/text_View29"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="5"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_30"
+                    android:id="@+id/text_View30"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="6"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_31"
+                    android:id="@+id/text_View31"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="6"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_32"
+                    android:id="@+id/text_View32"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="6"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_33"
+                    android:id="@+id/text_View33"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="6"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_34"
+                    android:id="@+id/text_View34"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="6"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_35"
+                    android:id="@+id/text_View35"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="7"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_36"
+                    android:id="@+id/text_View36"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="7"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_37"
+                    android:id="@+id/text_View37"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="7"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_38"
+                    android:id="@+id/text_View38"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="7"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_39"
+                    android:id="@+id/text_View39"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="7"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_40"
+                    android:id="@+id/text_View40"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="8"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_41"
+                     android:id="@+id/text_View41"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="8"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_42"
+                     android:id="@+id/text_View42"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="8"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_43"
+                     android:id="@+id/text_View43"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="8"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_44"
+                     android:id="@+id/text_View44"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="8"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_45"
+                     android:id="@+id/text_View45"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="9"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_46"
+                     android:id="@+id/text_View46"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="9"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_47"
+                     android:id="@+id/text_View47"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="9"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_48"
+                     android:id="@+id/text_View48"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="9"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_49"
+                     android:id="@+id/text_View49"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="9"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_50"
+                     android:id="@+id/text_View50"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorTextBtnFlag"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                android:layout_row="10"
+                android:layout_column="0"
+
+
+                android:text="@string/btn_51"
+                android:id="@+id/text_View51"
+
+                android:layout_width="@dimen/size_btn"
+                android:layout_height="@dimen/size_btn"
+                android:layout_margin="@dimen/size_margin_btn"
+                android:background="@color/colorBackgroundBuild"
+                android:gravity="center"
+                android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="10"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_52"
+                    android:id="@+id/text_View52"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="10"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_53"
+                    android:id="@+id/text_View53"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="10"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_54"
+                    android:id="@+id/text_View54"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="10"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_55"
+                    android:id="@+id/text_View55"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="11"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_56"
+                    android:id="@+id/text_View56"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="11"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_57"
+                    android:id="@+id/text_View57"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="11"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_58"
+                    android:id="@+id/text_View58"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="11"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_59"
+                    android:id="@+id/text_View59"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="11"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_60"
+                    android:id="@+id/text_View60"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="12"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_61"
+                    android:id="@+id/text_View61"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="12"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_62"
+                    android:id="@+id/text_View62"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="12"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_63"
+                    android:id="@+id/text_View63"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="12"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_64"
+                    android:id="@+id/text_View64"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="12"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_65"
+                    android:id="@+id/text_View65"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="13"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_66"
+                    android:id="@+id/text_View66"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="13"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_67"
+                    android:id="@+id/text_View67"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="13"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_68"
+                    android:id="@+id/text_View68"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="13"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_69"
+                    android:id="@+id/text_View69"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="13"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_70"
+                    android:id="@+id/text_View70"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="14"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_71"
+                    android:id="@+id/text_View71"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="14"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_72"
+                    android:id="@+id/text_View72"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="14"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_73"
+                    android:id="@+id/text_View73"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="14"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_74"
+                    android:id="@+id/text_View74"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="14"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_75"
+                    android:id="@+id/text_View75"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="15"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_76"
+                    android:id="@+id/text_View76"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="15"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_77"
+                    android:id="@+id/text_View77"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="15"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_78"
+                    android:id="@+id/text_View78"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="15"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_79"
+                    android:id="@+id/text_View79"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="15"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_80"
+                    android:id="@+id/text_View80"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="16"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_81"
+                    android:id="@+id/text_View81"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="16"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_82"
+                    android:id="@+id/text_View82"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="16"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_83"
+                    android:id="@+id/text_View83"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="16"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_84"
+                    android:id="@+id/text_View84"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="16"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_85"
+                    android:id="@+id/text_View85"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="17"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_86"
+                    android:id="@+id/text_View86"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="17"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_87"
+                    android:id="@+id/text_View87"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="17"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_88"
+                    android:id="@+id/text_View88"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="17"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_89"
+                    android:id="@+id/text_View89"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="17"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_90"
+                    android:id="@+id/text_View90"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="18"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_91"
+                    android:id="@+id/text_View91"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="18"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_92"
+                    android:id="@+id/text_View92"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="18"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_93"
+                    android:id="@+id/text_View93"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="18"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_94"
+                    android:id="@+id/text_View94"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="18"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_95"
+                    android:id="@+id/text_View95"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="19"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_96"
+                    android:id="@+id/text_View96"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="19"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_97"
+                    android:id="@+id/text_View97"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="19"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_98"
+                    android:id="@+id/text_View98"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="19"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_99"
+                    android:id="@+id/text_View99"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="19"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_100"
+                    android:id="@+id/text_View100"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorTextBtnFlag"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_column="0"
+                    android:layout_row="20"
+
+                    android:text="@string/btn_101"
+                    android:id="@+id/text_View101"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_row="20"
+
+                    android:text="@string/btn_102"
+                    android:id="@+id/text_View102"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="2"
+                    android:layout_row="20"
+
+                    android:text="@string/btn_103"
+                    android:id="@+id/text_View103"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="3"
+                    android:layout_row="20"
+
+                    android:text="@string/btn_104"
+                    android:id="@+id/text_View104"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="4"
+                    android:layout_row="20"
+
+                    android:text="@string/btn_105"
+                    android:id="@+id/text_View105"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_column="0"
+                    android:layout_row="21"
+
+                    android:text="@string/btn_106"
+                    android:id="@+id/text_View106"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_row="21"
+
+                    android:text="@string/btn_107"
+                    android:id="@+id/text_View107"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="2"
+                    android:layout_row="21"
+
+                    android:text="@string/btn_108"
+                    android:id="@+id/text_View108"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="3"
+                    android:layout_row="21"
+
+                    android:text="@string/btn_109"
+                    android:id="@+id/text_View109"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="4"
+                    android:layout_row="21"
+
+                    android:text="@string/btn_110"
+                    android:id="@+id/text_View110"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_column="0"
+                    android:layout_row="22"
+
+                    android:text="@string/btn_111"
+                    android:id="@+id/text_View111"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_row="22"
+
+                    android:text="@string/btn_112"
+                    android:id="@+id/text_View112"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="2"
+                    android:layout_row="22"
+
+                    android:text="@string/btn_113"
+                    android:id="@+id/text_View113"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="3"
+                    android:layout_row="22"
+
+                    android:text="@string/btn_114"
+                    android:id="@+id/text_View114"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="4"
+                    android:layout_row="22"
+
+                    android:text="@string/btn_115"
+                    android:id="@+id/text_View115"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="23"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_116"
+                    android:id="@+id/text_View116"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="23"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_117"
+                    android:id="@+id/text_View117"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="23"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_118"
+                    android:id="@+id/text_View118"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="23"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_119"
+                    android:id="@+id/text_View119"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="23"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_120"
+                    android:id="@+id/text_View120"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+
+                <TextView
+                    android:layout_row="24"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_121"
+                    android:id="@+id/text_View121"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="24"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_122"
+                    android:id="@+id/text_View122"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="24"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_123"
+                    android:id="@+id/text_View123"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="24"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_124"
+                    android:id="@+id/text_View124"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="24"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_125"
+                    android:id="@+id/text_View125"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="25"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_126"
+                    android:id="@+id/text_View126"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="25"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_127"
+                    android:id="@+id/text_View127"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="25"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_128"
+                    android:id="@+id/text_View128"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="25"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_129"
+                    android:id="@+id/text_View129"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="25"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_130"
+                    android:id="@+id/text_View130"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="26"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_131"
+                    android:id="@+id/text_View131"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="26"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_132"
+                    android:id="@+id/text_View132"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="26"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_133"
+                    android:id="@+id/text_View133"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="26"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_134"
+                    android:id="@+id/text_View134"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="26"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_135"
+                    android:id="@+id/text_View135"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="27"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_136"
+                    android:id="@+id/text_View136"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="27"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_137"
+                    android:id="@+id/text_View137"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="27"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_138"
+                    android:id="@+id/text_View138"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="27"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_139"
+                    android:id="@+id/text_View139"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="27"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_140"
+                    android:id="@+id/text_View140"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="28"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_141"
+                    android:id="@+id/text_View141"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="28"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_142"
+                    android:id="@+id/text_View142"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="28"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_143"
+                    android:id="@+id/text_View143"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="28"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_144"
+                    android:id="@+id/text_View144"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="28"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_145"
+                    android:id="@+id/text_View145"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="29"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_146"
+                    android:id="@+id/text_View146"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="29"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_147"
+                    android:id="@+id/text_View147"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="29"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_148"
+                    android:id="@+id/text_View148"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="29"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_149"
+                    android:id="@+id/text_View149"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="29"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_150"
+                    android:id="@+id/text_View150"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorTextBtnFlag"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="30"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_151"
+                    android:id="@+id/text_View151"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="30"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_152"
+                    android:id="@+id/text_View152"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="30"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_153"
+                    android:id="@+id/text_View153"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="30"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_154"
+                    android:id="@+id/text_View154"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="30"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_155"
+                    android:id="@+id/text_View155"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="31"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_156"
+                    android:id="@+id/text_View156"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="31"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_157"
+                    android:id="@+id/text_View157"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="31"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_158"
+                    android:id="@+id/text_View158"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="31"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_159"
+                    android:id="@+id/text_View159"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="31"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_160"
+                    android:id="@+id/text_View160"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="32"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_161"
+                    android:id="@+id/text_View161"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="32"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_162"
+                    android:id="@+id/text_View162"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="32"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_163"
+                    android:id="@+id/text_View163"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="32"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_164"
+                    android:id="@+id/text_View164"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="32"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_165"
+                    android:id="@+id/text_View165"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="33"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_166"
+                    android:id="@+id/text_View166"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="33"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_167"
+                    android:id="@+id/text_View167"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="33"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_168"
+                    android:id="@+id/text_View168"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="33"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_169"
+                    android:id="@+id/text_View169"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="33"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_170"
+                    android:id="@+id/text_View170"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="34"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_171"
+                    android:id="@+id/text_View171"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="34"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_172"
+                    android:id="@+id/text_View172"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="34"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_173"
+                    android:id="@+id/text_View173"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="34"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_174"
+                    android:id="@+id/text_View174"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="34"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_175"
+                    android:id="@+id/text_View175"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="35"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_176"
+                    android:id="@+id/text_View176"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="35"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_177"
+                    android:id="@+id/text_View177"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="35"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_178"
+                    android:id="@+id/text_View178"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="35"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_179"
+                    android:id="@+id/text_View179"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="35"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_180"
+                    android:id="@+id/text_View180"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="36"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_181"
+                    android:id="@+id/text_View181"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="36"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_182"
+                    android:id="@+id/text_View182"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="36"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_183"
+                    android:id="@+id/text_View183"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="36"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_184"
+                    android:id="@+id/text_View184"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="36"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_185"
+                    android:id="@+id/text_View185"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="37"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_186"
+                    android:id="@+id/text_View186"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="37"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_187"
+                    android:id="@+id/text_View187"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="37"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_188"
+                    android:id="@+id/text_View188"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="37"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_189"
+                    android:id="@+id/text_View189"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="37"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_190"
+                    android:id="@+id/text_View190"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="38"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_191"
+                    android:id="@+id/text_View191"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="38"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_192"
+                    android:id="@+id/text_View192"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="38"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_193"
+                    android:id="@+id/text_View193"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="38"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_194"
+                    android:id="@+id/text_View194"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="38"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_195"
+                    android:id="@+id/text_View195"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="39"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_196"
+                    android:id="@+id/text_View196"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="39"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_197"
+                    android:id="@+id/text_View197"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="39"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_198"
+                    android:id="@+id/text_View198"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="39"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_199"
+                    android:id="@+id/text_View199"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="39"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_200"
+                    android:id="@+id/text_View200"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorTextBtnFlag"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_column="0"
+                    android:layout_row="40"
+
+                    android:text="@string/btn_201"
+                    android:id="@+id/text_View201"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_row="40"
+
+                    android:text="@string/btn_202"
+                    android:id="@+id/text_View202"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="2"
+                    android:layout_row="40"
+
+                    android:text="@string/btn_203"
+                    android:id="@+id/text_View203"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="3"
+                    android:layout_row="40"
+
+                    android:text="@string/btn_204"
+                    android:id="@+id/text_View204"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="4"
+                    android:layout_row="40"
+
+                    android:text="@string/btn_205"
+                    android:id="@+id/text_View205"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_column="0"
+                    android:layout_row="41"
+
+                    android:text="@string/btn_206"
+                    android:id="@+id/text_View206"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_row="41"
+
+                    android:text="@string/btn_207"
+                    android:id="@+id/text_View207"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="2"
+                    android:layout_row="41"
+
+                    android:text="@string/btn_208"
+                    android:id="@+id/text_View208"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="3"
+                    android:layout_row="41"
+
+                    android:text="@string/btn_209"
+                    android:id="@+id/text_View209"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="4"
+                    android:layout_row="41"
+
+                    android:text="@string/btn_210"
+                    android:id="@+id/text_View210"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_column="0"
+                    android:layout_row="42"
+
+                    android:text="@string/btn_211"
+                    android:id="@+id/text_View211"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_row="42"
+
+                    android:text="@string/btn_212"
+                    android:id="@+id/text_View212"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="2"
+                    android:layout_row="42"
+
+                    android:text="@string/btn_213"
+                    android:id="@+id/text_View213"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="3"
+                    android:layout_row="42"
+
+                    android:text="@string/btn_214"
+                    android:id="@+id/text_View214"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_column="4"
+                    android:layout_row="42"
+
+                    android:text="@string/btn_215"
+                    android:id="@+id/text_View215"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="43"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_216"
+                    android:id="@+id/text_View216"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="43"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_217"
+                    android:id="@+id/text_View217"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="43"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_218"
+                    android:id="@+id/text_View218"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="43"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_219"
+                    android:id="@+id/text_View219"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="43"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_220"
+                    android:id="@+id/text_View220"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+
+                <TextView
+                    android:layout_row="44"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_221"
+                    android:id="@+id/text_View221"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="44"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_222"
+                    android:id="@+id/text_View222"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="44"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_223"
+                    android:id="@+id/text_View223"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="44"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_224"
+                    android:id="@+id/text_View224"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="44"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_225"
+                    android:id="@+id/text_View225"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="45"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_226"
+                    android:id="@+id/text_View226"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="45"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_227"
+                    android:id="@+id/text_View227"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="45"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_228"
+                    android:id="@+id/text_View228"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="45"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_229"
+                    android:id="@+id/text_View229"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="45"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_230"
+                    android:id="@+id/text_View230"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="46"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_231"
+                    android:id="@+id/text_View231"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="46"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_232"
+                    android:id="@+id/text_View232"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="46"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_233"
+                    android:id="@+id/text_View233"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="46"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_234"
+                    android:id="@+id/text_View234"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="46"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_235"
+                    android:id="@+id/text_View235"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="47"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_236"
+                    android:id="@+id/text_View236"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="47"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_237"
+                    android:id="@+id/text_View237"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="47"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_238"
+                    android:id="@+id/text_View238"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="47"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_239"
+                    android:id="@+id/text_View239"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="47"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_240"
+                    android:id="@+id/text_View240"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <!--*******************************Сторка*************************************-->
+                <TextView
+                    android:layout_row="48"
+                    android:layout_column="0"
+
+
+                    android:text="@string/btn_241"
+                    android:id="@+id/text_View241"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="48"
+                    android:layout_column="1"
+
+
+                    android:text="@string/btn_242"
+                    android:id="@+id/text_View242"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="48"
+                    android:layout_column="2"
+
+
+                    android:text="@string/btn_243"
+                    android:id="@+id/text_View243"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="48"
+                    android:layout_column="3"
+
+
+                    android:text="@string/btn_244"
+                    android:id="@+id/text_View244"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorBackgroundBuild"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+                <TextView
+                    android:layout_row="48"
+                    android:layout_column="4"
+
+
+                    android:text="@string/btn_245"
+                    android:id="@+id/text_View245"
+
+                    android:layout_width="@dimen/size_btn"
+                    android:layout_height="@dimen/size_btn"
+                    android:layout_margin="@dimen/size_margin_btn"
+                    android:background="@color/colorTextBtnFlag"
+                    android:gravity="center"
+                    android:textSize="@dimen/size_text_btn"
+                    android:textColor="@color/colorTextBtn" />
+
+
+
+
+
+            </GridLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
